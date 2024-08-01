@@ -37,4 +37,4 @@ jobs:
           done
           # Runs a single command using the runners shell
       - name: fail
-        run: exit
+        run: exit 1
